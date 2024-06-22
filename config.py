@@ -26,7 +26,7 @@ def create_cfg():
     cfg.TRAIN.EPOCHS = 100
     cfg.TRAIN.LOG_EVERY_STEP = 10
     cfg.TRAIN.VAL_FREQ = 10
-    cfg.TRAIN.LR = 3e-1
+    cfg.TRAIN.LR = 3e-4
     cfg.TRAIN.WEIGHT_DECAY = 5e-5
     cfg.TRAIN.GRAD_CLIP = 1.0
     cfg.TRAIN.THRESHOLD = 0.95
